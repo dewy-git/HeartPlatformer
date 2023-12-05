@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://kvtp5g5xmjtx"]
+
+[node name="World" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(0, 0, 16, 0, 16, 120, 48, 120, 88, 88, 104, 88, 128, 64, 152, 64, 152, 112, 168, 112, 168, 64, 184, 64, 208, 104, 232, 104, 256, 128, 304, 128, 304, 0, 320, 0, 320, 184, 0, 184)
