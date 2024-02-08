@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://kvtp5g5xmjtx"]
+[gd_scene load_steps=4 format=3 uid="uid://kvtp5g5xmjtx"]
 
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_ks6bk"]
 [ext_resource type="PackedScene" uid="uid://c66andaynsj5m" path="res://scenes/player.tscn" id="2_wsndy"]
+[ext_resource type="Resource" uid="uid://c3gd0e07m0o73" path="res://assets/DefaultMovementData.tres" id="3_lrg4w"]
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_ks6bk")
@@ -18,3 +19,4 @@ polygon = PackedVector2Array(0, -8, 16, -8, 16, 120, 48, 120, 88, 88, 104, 88, 1
 position = Vector2(32, 120)
 floor_constant_speed = true
 floor_snap_length = 2.0
+movement_data = ExtResource("3_lrg4w")
