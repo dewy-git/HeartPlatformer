@@ -87,6 +87,7 @@ size = Vector2(6, 13)
 [node name="Player" type="CharacterBody2D"]
 collision_layer = 2
 floor_snap_length = 3.0
+safe_margin = 0.15
 script = ExtResource("1_jp0ku")
 movement_data = ExtResource("2_t0dji")
 

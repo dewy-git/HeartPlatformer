@@ -1,8 +1,5 @@
+res://scenes/level_transition.tscn
 res://scenes/world.tscn
-res://scenes/player.tscn
-res://scenes/spikes.tscn
-res://scenes/hazard_area.tscn
-res://scenes/heart.tscn
-res://scenes/level_completed.tscn
+res://scenes/level_one.tscn
 res://scripts/world.gd
-res://level_tile_map.tscn
+res://scenes/player.tscn
