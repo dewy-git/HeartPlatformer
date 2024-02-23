@@ -14,12 +14,13 @@ script = ExtResource("1_iioej")
 layout_mode = 2
 
 [node name="StartGameButton" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
 layout_mode = 2
-text = "start game ><"
+text = "✦ Start  ✦"
 
 [node name="QuitButton" type="Button" parent="VBoxContainer"]
 layout_mode = 2
-text = "quit !"
+text = "✦ Quit ✦"
 
 [connection signal="pressed" from="VBoxContainer/StartGameButton" to="." method="_on_start_game_button_pressed"]
 [connection signal="pressed" from="VBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]
