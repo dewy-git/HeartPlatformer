@@ -117,4 +117,7 @@ collision_mask = 4
 position = Vector2(0, -7.5)
 shape = SubResource("RectangleShape2D_7xh5a")
 
+[node name="WallJumpTimer" type="Timer" parent="."]
+wait_time = 0.1
+
 [connection signal="area_entered" from="HazardDetector" to="." method="_on_hazard_detector_area_entered"]

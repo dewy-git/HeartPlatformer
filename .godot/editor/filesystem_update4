@@ -4,5 +4,3 @@ res://scenes/level_one.tscn
 res://scenes/player.tscn
 res://scenes/start_menu.tscn
 res://scenes/level_completed.tscn
-res://assets/default_theme.tres
-res://scripts/world.gd
