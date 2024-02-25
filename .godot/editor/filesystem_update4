@@ -1,8 +1,8 @@
-res://scenes/start_menu.tscn
-res://assets/default_theme.tres
 res://scenes/world.tscn
 res://scenes/level_transition.tscn
 res://scenes/level_one.tscn
 res://scenes/player.tscn
-res://scenes/start_menu.gd
+res://scenes/start_menu.tscn
+res://scenes/level_completed.tscn
+res://assets/default_theme.tres
 res://scripts/world.gd

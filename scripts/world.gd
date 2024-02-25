@@ -10,6 +10,7 @@ func _ready():
 func show_level_completed():
 	level_completed.show()
 	get_tree().paused = true
+	await get_tree().create_timer(1.0).timeout
 	if not next_level is PackedScene: return
 	await LevelTransition.fade_to_white()
 	get_tree().paused = false
